@@ -1,0 +1,95 @@
+header,
+section,
+footer {
+  width: 100%;
+}
+
+header {
+  height: 80px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.gnb {
+  width: 652px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: lightblue; */
+}
+
+.gnb > a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.header_icon {
+  width: 88px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_icon a {
+  width: 28px;
+}
+
+/* .mobile_menu {
+  display: none;
+} */
+
+/* header end  */
+
+/* @media all and (max-width: 950px) {
+  .sec_2_title {
+    font-size: 32px;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .sec_3_title {
+    font-size: 32px;
+  }
+}
+
+.shop_btn {
+  width: 180px;
+  height: 52px;
+  background-color: #426da3;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 52px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.sns_con a:hover {
+  opacity: 0.8;
+} */
+
+/* ScrollOut  */
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
